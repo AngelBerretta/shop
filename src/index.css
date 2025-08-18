@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Product Card Animations */
+.product-card-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.product-card-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Image Containers */
+.image-container {
+  position: relative;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.image-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+/* Responsive Image Sizes */
+@media (min-width: 640px) {
+  .product-image {
+    max-height: 220px;
+  }
+}
+@media (min-width: 1024px) {
+  .product-image {
+    max-height: 260px;
+  }
+}
