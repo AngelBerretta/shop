@@ -65,9 +65,6 @@ shop/
 - 📱 **Diseño responsive** adaptado a móviles y escritorio.
 - ⚡ **Carga rápida** gracias a Vite y optimización con TailwindCSS.
 
-***REMOVED******REMOVED*** 📸 Capturas de Pantalla
-
-_Añadir imágenes del proyecto aquí._
 
 ***REMOVED******REMOVED*** 📄 Licencia
 
