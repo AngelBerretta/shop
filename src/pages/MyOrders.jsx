@@ -26,7 +26,7 @@ export default function MyOrders() {
             className="block p-4 border rounded hover:shadow-lg"
           >
             <div className="flex justify-between">
-              <span className="font-semibold">Order ***REMOVED***{order.id.slice(0, 8)}</span>
+              <span className="font-semibold">Order #{order.id.slice(0, 8)}</span>
               <span>{order.date}</span>
             </div>
             <div className="text-sm text-gray-600">

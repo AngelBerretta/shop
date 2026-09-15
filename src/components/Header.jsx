@@ -46,7 +46,7 @@ export default function Header() {
     ? [
         { to: '/my-orders', label: 'My Orders' },
         { to: '/account', label: 'My Account' },
-        { to: '***REMOVED***', label: 'Logout', onClick: handleLogout },
+        { to: '#', label: 'Logout', onClick: handleLogout },
       ]
     : [
         { to: '/login', label: 'Login' },

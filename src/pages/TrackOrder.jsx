@@ -65,7 +65,7 @@ export default function TrackOrder() {
 
       {order && (
         <div className="mt-8">
-          <h2 className="text-xl font-semibold mb-3">Order ***REMOVED***{orderId}</h2>
+          <h2 className="text-xl font-semibold mb-3">Order #{orderId}</h2>
 
           <ul className="space-y-3">
             {order.steps.map((step, idx) => (

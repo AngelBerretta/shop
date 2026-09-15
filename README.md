@@ -1,9 +1,9 @@
-***REMOVED*** 🛒 Shop - Tienda Online con React
+# 🛒 Shop - Tienda Online con React
 
 Este proyecto es una tienda online moderna construida con **React**, **Vite** y **TailwindCSS**.  
 Incluye funcionalidades de carrito de compras, filtrado de productos, autenticación y diseño responsive.
 
-***REMOVED******REMOVED*** 🚀 Tecnologías Utilizadas
+## 🚀 Tecnologías Utilizadas
 
 - **React** – Librería principal para la interfaz.
 - **Vite** – Herramienta de desarrollo rápida y ligera.
@@ -11,25 +11,25 @@ Incluye funcionalidades de carrito de compras, filtrado de productos, autenticac
 - **JavaScript (ES6+)** – Lógica de la aplicación.
 - **Context API** – Manejo de estado global (productos, carrito, autenticación).
 
-***REMOVED******REMOVED*** 📂 Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
 ```
 shop/
-├── public/             ***REMOVED*** Recursos públicos (imágenes, íconos, etc.)
+├── public/             # Recursos públicos (imágenes, íconos, etc.)
 ├── src/
-│   ├── assets/         ***REMOVED*** Recursos estáticos
-│   ├── components/     ***REMOVED*** Componentes reutilizables
-│   ├── context/        ***REMOVED*** Contextos globales (Auth, Cart, Products)
-│   ├── pages/          ***REMOVED*** Páginas principales de la aplicación
-│   ├── App.jsx         ***REMOVED*** Componente raíz
-│   ├── main.jsx        ***REMOVED*** Punto de entrada
-│   └── styles/         ***REMOVED*** Estilos globales
+│   ├── assets/         # Recursos estáticos
+│   ├── components/     # Componentes reutilizables
+│   ├── context/        # Contextos globales (Auth, Cart, Products)
+│   ├── pages/          # Páginas principales de la aplicación
+│   ├── App.jsx         # Componente raíz
+│   ├── main.jsx        # Punto de entrada
+│   └── styles/         # Estilos globales
 ├── index.html
 ├── package.json
 └── tailwind.config.js
 ```
 
-***REMOVED******REMOVED*** ⚙️ Instalación y Uso
+## ⚙️ Instalación y Uso
 
 1. **Clonar el repositorio**
    ```bash
@@ -57,7 +57,7 @@ shop/
    npm run preview
    ```
 
-***REMOVED******REMOVED*** ✨ Funcionalidades
+## ✨ Funcionalidades
 
 - 📦 **Catálogo de productos** con filtros.
 - 🛍 **Carrito de compras** persistente.
@@ -66,7 +66,7 @@ shop/
 - ⚡ **Carga rápida** gracias a Vite y optimización con TailwindCSS.
 
 
-***REMOVED******REMOVED*** 📄 Licencia
+## 📄 Licencia
 
 Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
 

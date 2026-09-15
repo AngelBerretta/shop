@@ -1,32 +1,32 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Fondo del carrito - Verde principal -->
-  <path d="M240 96L224 200H48L32 96H240Z" fill="***REMOVED***10B981" stroke="***REMOVED***059669" stroke-width="8"/>
+  <path d="M240 96L224 200H48L32 96H240Z" fill="#10B981" stroke="#059669" stroke-width="8"/>
   
   <!-- Ruedas - Verde oscuro -->
-  <circle cx="72" cy="200" r="24" fill="***REMOVED***059669"/>
-  <circle cx="200" cy="200" r="24" fill="***REMOVED***059669"/>
-  <circle cx="72" cy="200" r="12" fill="***REMOVED***064E3B"/>
-  <circle cx="200" cy="200" r="12" fill="***REMOVED***064E3B"/>
+  <circle cx="72" cy="200" r="24" fill="#059669"/>
+  <circle cx="200" cy="200" r="24" fill="#059669"/>
+  <circle cx="72" cy="200" r="12" fill="#064E3B"/>
+  <circle cx="200" cy="200" r="12" fill="#064E3B"/>
   
   <!-- Parte frontal - Verde oscuro -->
-  <path d="M32 96L16 56H64" stroke="***REMOVED***059669" stroke-width="8" stroke-linecap="round"/>
+  <path d="M32 96L16 56H64" stroke="#059669" stroke-width="8" stroke-linecap="round"/>
   
   <!-- Manija - Verde oscuro -->
-  <path d="M224 96H240C245.523 96 250 100.477 250 106V126C250 131.523 245.523 136 240 136H224" stroke="***REMOVED***059669" stroke-width="8"/>
+  <path d="M224 96H240C245.523 96 250 100.477 250 106V126C250 131.523 245.523 136 240 136H224" stroke="#059669" stroke-width="8"/>
   
   <!-- Bolsa de compras - Gradiente verde -->
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="***REMOVED***10B981"/>
-      <stop offset="100%" stop-color="***REMOVED***34D399"/>
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
     </linearGradient>
   </defs>
-  <path d="M176 56V40C176 26.745 165.255 16 152 16H120C106.745 16 96 26.745 96 40V56" stroke="***REMOVED***059669" stroke-width="8"/>
-  <path d="M96 56H176V96C176 102.627 173.105 108.834 168 113.373C162.895 117.912 156.042 120 149 120H123C115.958 120 109.105 117.912 104 113.373C98.8953 108.834 96 102.627 96 96V56Z" fill="url(***REMOVED***grad1)" stroke="***REMOVED***059669" stroke-width="8"/>
+  <path d="M176 56V40C176 26.745 165.255 16 152 16H120C106.745 16 96 26.745 96 40V56" stroke="#059669" stroke-width="8"/>
+  <path d="M96 56H176V96C176 102.627 173.105 108.834 168 113.373C162.895 117.912 156.042 120 149 120H123C115.958 120 109.105 117.912 104 113.373C98.8953 108.834 96 102.627 96 96V56Z" fill="url(#grad1)" stroke="#059669" stroke-width="8"/>
   
   <!-- Estrellas - Amarillo verdoso -->
-  <path d="M200 40L204.944 52.3607H218.042L207.549 60.2786L212.494 72.6393L200 64.7214L187.506 72.6393L192.451 60.2786L181.958 52.3607H195.056L200 40Z" fill="***REMOVED***D9F99D"/>
-  <path d="M60 24L63.0536 32.3607H72L64.9732 38.2786L68.0268 46.6393L60 40.7214L51.9732 46.6393L55.0268 38.2786L48 32.3607H56.9464L60 24Z" fill="***REMOVED***D9F99D"/>
+  <path d="M200 40L204.944 52.3607H218.042L207.549 60.2786L212.494 72.6393L200 64.7214L187.506 72.6393L192.451 60.2786L181.958 52.3607H195.056L200 40Z" fill="#D9F99D"/>
+  <path d="M60 24L63.0536 32.3607H72L64.9732 38.2786L68.0268 46.6393L60 40.7214L51.9732 46.6393L55.0268 38.2786L48 32.3607H56.9464L60 24Z" fill="#D9F99D"/>
   
   <!-- Texto "Shop" en blanco -->
   <rect x="80" y="160" width="32" height="8" fill="white"/>
